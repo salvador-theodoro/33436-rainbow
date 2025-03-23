@@ -71,6 +71,10 @@ main{
     text-align: center;
 }
 
+.main-content{
+    width: 100%;
+}
+
 .main-title{
     width: 100%;
     text-align: center;
@@ -94,4 +98,44 @@ main{
 .pic-caption{
     margin-top: 0;
     font-size: 11px;
+}
+
+/*----------------PÁGINA FORMAÇÕES--------------*/
+
+.formation{
+    width: 100%;
+    height: 350px;
+    border-top: 1px solid #000;
+    position: relative;
+    align-items: center;
+}
+
+.formation-pic{
+    float: left;
+    position: relative;
+    margin-left: 80px;
+}
+
+.formation-pic img{
+    box-shadow: 0 0 5px #000;
+}
+
+.formation-text{
+    position: relative;
+    float: right;
+    width: 40%;
+
+    margin-right: 40px;
+    margin-top: 60px;
+    text-align: center;
+    align-items: center;
+}
+
+.formation-text a{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.formation-text a:hover{
+    text-shadow: 0 0 5px #fff;
 }
