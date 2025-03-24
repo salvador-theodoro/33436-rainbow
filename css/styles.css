@@ -95,8 +95,14 @@ main{
     text-align: left;
 }
 
+.picture{
+    height: 250px;
+    margin-bottom: 50px;
+}
+
 .picture img{
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+    height: 250px;
 }
 
 .pic-caption{
